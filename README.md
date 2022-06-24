@@ -41,8 +41,8 @@ Scaling the all columns using MinMax scaler.
 
 ### Ensemble model
 
-Using above all models assigned weight based on their accuracy.
-When a new record is tested using the model every model outputs a class label and based on this class label and weight, resultant of all models i.e; (weight*output of model), output of ensemble model is done.
+Using above all models assigned weight based on their accuracy. <br>
+When a new record is tested using the model every model outputs a class label and based on this class label and weight, resultant of all models i.e; (weight*output of model), output of ensemble model is done. <br>
 The ensemble model is called as Voting Classifier.
 
 ---------------------------------------------------------------------------------------------------------------------------------
